@@ -140,8 +140,8 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
-  autothemer    :  true # Bool: Use autotheming
+  skin         :  towards
+  autothemer    :  # Autotheming may not have any effect
   vars          :    
     primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
     
