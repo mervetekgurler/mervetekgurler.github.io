@@ -1,3 +1,5 @@
+const apiUrl = 'https://gpt4-backend-three.vercel.app';
+
 async function translate() {
     const ottomanInput = document.getElementById("ottomanInput").value;
 
@@ -12,7 +14,7 @@ async function translate() {
     }
 
     try {
-        const response = await fetch("https://your-vercel-deployment-url/translate", {
+        const response = await fetch(`${apiUrl}/translate`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -44,7 +46,7 @@ async function submitFeedback() {
     }
 
     try {
-        const response = await fetch("https://your-vercel-deployment-url/feedback", {
+        const response = await fetch(`${apiUrl}/feedback`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -68,4 +70,3 @@ async function submitFeedback() {
         alert("Error submitting feedback.");
     }
 }
-
