@@ -23,8 +23,11 @@ async function translate() {
         });
 
         if (response.status !== 200) {
-            throw new Error('Failed to get translation');
+            const errorData = await response.json();
+            throw new Error(`Failed to get translation: ${errorData.message}`)
         }
+}
+
 
         const data = await response.json();
         document.getElementById("englishOutput").value = data.translation;
