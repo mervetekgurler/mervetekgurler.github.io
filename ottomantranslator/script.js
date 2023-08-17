@@ -1,4 +1,4 @@
-const apiUrl = 'https://gpt4-backend-three.vercel.app/';
+const apiUrl = 'https://gpt4-backend-three.vercel.app/api';
 
 async function performTranslation() { // renamed function
     const ottomanInput = document.getElementById("ottomanInput").value;
