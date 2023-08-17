@@ -14,7 +14,7 @@ async function performTranslation() { // renamed function
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/translate`, {
+        const response = await fetch(`${apiUrl}/api/translate/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -48,7 +48,7 @@ async function submitFeedback() {
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/feedback`, {
+        const response = await fetch(`${apiUrl}/api/feedback/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
