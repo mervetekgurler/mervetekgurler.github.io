@@ -1,6 +1,6 @@
 const apiUrl = 'https://gpt4-backend-three.vercel.app';
 
-async function performTranslation() { // renamed function
+async function performTranslation() {
     const ottomanInput = document.getElementById("ottomanInput").value;
 
     if (ottomanInput.length === 0) {
@@ -16,18 +16,20 @@ async function performTranslation() { // renamed function
     try {
         const response = await fetch(`${apiUrl}/api/translate`, {
             method: "POST",
+            mode: 'cors',
+            credentials: 'omit',
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ sentence: ottomanInput })
         });
 
+        const data = await response.json();
+
         if (response.status !== 200) {
-            const errorData = await response.json();
-            throw new Error(`Failed to get translation: ${errorData.message}`);
+            throw new Error(`Failed to get translation: ${data.message}`);
         }
 
-        const data = await response.json();
         document.getElementById("englishOutput").value = data.translation;
 
     } catch (err) {
@@ -35,7 +37,6 @@ async function performTranslation() { // renamed function
         alert("Error getting translation.");
     }
 }
-
 
 async function submitFeedback() {
     const feedback = document.getElementById("comments").value;
@@ -50,10 +51,12 @@ async function submitFeedback() {
     try {
         const response = await fetch(`${apiUrl}/api/feedback`, {
             method: "POST",
+            mode: 'cors',
+            credentials: 'omit',
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ 
+            body: JSON.stringify({
                 feedback,
                 ottomanInput,
                 englishOutput
@@ -61,7 +64,8 @@ async function submitFeedback() {
         });
 
         if (response.status !== 200) {
-            throw new Error('Failed to submit feedback');
+            const data = await response.json();
+            throw new Error(`Failed to submit feedback: ${data.message}`);
         }
 
         alert("Thank you for your feedback!");
