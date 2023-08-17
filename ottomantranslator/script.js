@@ -1,6 +1,6 @@
 const apiUrl = 'https://gpt4-backend-three.vercel.app/';
 
-async function translate() {
+async function performTranslation() { // renamed function
     const ottomanInput = document.getElementById("ottomanInput").value;
 
     if (ottomanInput.length === 0) {
@@ -24,10 +24,8 @@ async function translate() {
 
         if (response.status !== 200) {
             const errorData = await response.json();
-            throw new Error(`Failed to get translation: ${errorData.message}`)
+            throw new Error(`Failed to get translation: ${errorData.message}`);
         }
-}
-
 
         const data = await response.json();
         document.getElementById("englishOutput").value = data.translation;
@@ -37,6 +35,7 @@ async function translate() {
         alert("Error getting translation.");
     }
 }
+
 
 async function submitFeedback() {
     const feedback = document.getElementById("comments").value;
