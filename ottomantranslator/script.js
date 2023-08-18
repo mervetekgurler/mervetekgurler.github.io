@@ -14,22 +14,25 @@ async function performTranslation() {
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/translate.js`, {
+        const response = await fetch(`${apiUrl}/api/translate`, {
             method: "POST",
-            mode: 'cors',
-            credentials: 'omit',
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ sentence: ottomanInput })
         });
 
-        const data = await response.json();
-
-        if (response.status !== 200) {
-            throw new Error(`Failed to get translation: ${data.message}`);
+        if (!response.ok) {
+            if (response.headers.get("Content-Type") === "application/json") {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'Error fetching data');
+            } else {
+                const errorMessage = await response.text();
+                throw new Error(errorMessage);
+            }
         }
 
+        const data = await response.json();
         document.getElementById("englishOutput").value = data.translation;
 
     } catch (err) {
