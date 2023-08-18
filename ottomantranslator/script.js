@@ -14,7 +14,7 @@ async function performTranslation() {
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/translate`, {
+        const response = await fetch(`${apiUrl}/api/translate.js`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
