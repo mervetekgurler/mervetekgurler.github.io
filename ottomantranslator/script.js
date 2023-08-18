@@ -14,7 +14,7 @@ async function performTranslation() {
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/translate`, {
+        const response = await fetch(`${apiUrl}/api/translate.js`, {
             method: "POST",
             mode: 'cors',
             credentials: 'omit',
@@ -49,7 +49,7 @@ async function submitFeedback() {
     }
 
     try {
-        const response = await fetch(`${apiUrl}/api/feedback`, {
+        const response = await fetch(`${apiUrl}/api/feedback.js`, {
             method: "POST",
             mode: 'cors',
             credentials: 'omit',
