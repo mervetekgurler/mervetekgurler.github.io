@@ -116,7 +116,8 @@ navbar:
   - title   : Use this template
     url     : https://github.com/dieghernan/chulapa-101/generate
   - title   : Ottoman Translator
-    url     : /ottomantranslator
+    url     : https://ottomantranslator.vercel.app/
+
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
