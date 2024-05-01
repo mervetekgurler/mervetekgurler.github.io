@@ -19,7 +19,7 @@ To the best of our knowledge, GPT-4 has never been trained specifically for tran
 
 Despite the gaps of knowledge surrounding the 'how' and the 'why,' I established empirically through Semantics of Empire that GPT-4 outperforms other LLMs and NMT models trained for Modern Turkish to English translation. Below is a chart comparing the performance of several models–including some that I fine-tuned–on three test texts: an Ottoman novel, Ahmet Mithat Efendi’s *Felâtun Bey ve Râkim Efendi*, a late 18th century manuscript *Hulasatü’l-itibar* by Ahmed Resmi, and an early 18th century manuscript, Osman Ağa’s account of his imprisonment.
 
-![BLEU and chr-F Scores](../images/gensim_lda_0124/wordcloud_topic_2.png) 
+![BLEU and chr-F Scores](../images/gpt-4_translation/blue_chrf_charts_224n.png) 
 
 ## Experiment
 I was initially surprised by GPT-4’s performance; the model-translated texts looked similar to scholarly translations. These initial findings encouraged me to test GPT-4’s performance more methodologically. I designed the following experiment, which will be a part of my M.S. thesis in Symbolic Systems, supervised by Prof Mark Algee-Hewitt, and more broadly a component of my History dissertation, advised by Prof Ali Yaycioglu. This experiment is conducted fully online through a website that I built: [Ottoman Translator](https://ottomantranslator.vercel.app/)
