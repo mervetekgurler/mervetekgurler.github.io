@@ -2,7 +2,7 @@
 title: "Experimenting with Machine Translation of Ottoman Turkish into English"
 subtitle: "Semantics of Empire"
 header_type: hero
-header_img: "materials/aha_poster.001.jpeg"
+header_img: "materials/translation_blogpost_background.png"
 categories: [picture]
 tags: [blog-post, machine-translation, ottoman-empire, nlp, history]
 ---
@@ -19,9 +19,7 @@ To the best of our knowledge, GPT-4 has never been trained specifically for tran
 
 Despite the gaps of knowledge surrounding the 'how' and the 'why,' I established empirically through Semantics of Empire that GPT-4 outperforms other LLMs and NMT models trained for Modern Turkish to English translation. Below is a chart comparing the performance of several models–including some that I fine-tuned–on three test texts: an Ottoman novel, Ahmet Mithat Efendi’s *Felâtun Bey ve Râkim Efendi*, a late 18th century manuscript *Hulasatü’l-itibar* by Ahmed Resmi, and an early 18th century manuscript, Osman Ağa’s account of his imprisonment.
 
-
 ![BLEU and chr-F Scores](../images/gensim_lda_0124/wordcloud_topic_2.png) 
-
 
 ## Experiment
 I was initially surprised by GPT-4’s performance; the model-translated texts looked similar to scholarly translations. These initial findings encouraged me to test GPT-4’s performance more methodologically. I designed the following experiment, which will be a part of my M.S. thesis in Symbolic Systems, supervised by Prof Mark Algee-Hewitt, and more broadly a component of my History dissertation, advised by Prof Ali Yaycioglu. This experiment is conducted fully online through a website that I built: [Ottoman Translator](https://ottomantranslator.vercel.app/)
@@ -42,4 +40,4 @@ I use the Google Sheets API to collect your input, the model’s translation, an
 Ultimately, my goal is to produce a model that can compete with GPT-4 as a first pass translator and host it freely for all scholars and researchers in the Ottoman Empire and Middle Eastern Studies fields. This is why at this point in time I am inviting scholars of Ottoman Turkish to participate in this experiment and help me build the digital future for our field. All comments and questions can be directed to me via [email](mtekgurl@stanford.edu).
 
 ## Citations
-If you use translations from this model in your scholarship, or engage with this project in any other way, please cite this post as you would with any publication. You may use this format for citations: Merve Tekgürler. *Experimenting with GPT-4 for Machine Translation from Ottoman Turkish into English*. First Published: 05/01/2024. URL:
+If you use translations from this model in your scholarship, or engage with this project in any other way, please cite this post as you would with any publication. You may use this format for citations: Merve Tekgürler. *Experimenting with GPT-4 for Machine Translation from Ottoman Turkish into English*. First Published: 05/01/2024. URL: https://github.com/mervetekgurler/mervetekgurler.github.io/blob/7ad5adcc1271396ce2fa08803c156ce4d10ebd9f/_posts/2024-05-01-GPT4-translator.md
