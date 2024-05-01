@@ -26,7 +26,7 @@ I was initially surprised by GPT-4’s performance; the model-translated texts l
 
 My website uses the OpenAI GPT-4 API to query the model to translate Ottoman Turkish sentences submitted by you, the experiment participants. Upon typing or pasting a sentence in the text box, you click the ‘Translate’ button. The English translation of the sentence will appear under the text box. After reading the translation, click the ‘Edit This Translation’ button to offer corrections. A pop up will appear with the sentence translated by the model. You are asked to edit or correct the translated sentence based on your domain knowledge and expertise. 
 
-### As you are getting started, please note the guidelines:
+### Guidelines for Using the Translation Tool
 - Do not input sentences that are too long, i.e. over 70-80 words, depending on the character length of your words. The model performance decreases drastically with longer texts. This limitation stems from the model’s architecture. 
 - Do not click the Translate button repeatedly. It might take up to 30 seconds for the translation to appear. If there is an issue, you will see an error message pop up immediately. 
 - Crucially, don’t forget to offer edits and corrections to the translated sentences. Each translation costs me some amount of money for which I have very limited funds. As a graduate student, I need to collect data for research purposes and do not have the means to offer this as a free service. I appreciate your understanding and collaboration in this regard.
@@ -37,7 +37,7 @@ My website uses the OpenAI GPT-4 API to query the model to translate Ottoman Tur
 I use the Google Sheets API to collect your input, the model’s translation, and your correction. I am not collecting any identifying information including, but not limited to, IP addresses. My experiment does not fall under the domain of Stanford University’s Institutional Review Board (IRB) because I am testing model performance with human annotators, which does not constitute a human experiment. Throughout Summer 2024, I will use the data generated in my experiment to test GPT-4’s performance on a set of Ottoman Turkish examples from a broader time period than my PhD research focus. I will also incorporate this data into my model training.
 
 ## Future Directions
-Ultimately, my goal is to produce a model that can compete with GPT-4 as a first pass translator and host it freely for all scholars and researchers in the Ottoman Empire and Middle Eastern Studies fields. This is why at this point in time I am inviting scholars of Ottoman Turkish to participate in this experiment and help me build the digital future for our field. All comments and questions can be directed to me at mtekgurl@stanford.edu.
+Ultimately, my goal is to produce a model that can compete with GPT-4 as a first pass translator and host it freely for all scholars and researchers in the Ottoman Empire and Middle Eastern Studies fields. This is why at this point in time I am inviting scholars of Ottoman Turkish to participate in this experiment and help me build the digital future for our field. All comments and questions can be directed to me via [email](mtekgurl@stanford.edu).
 
 ## Citations
 If you use translations from this model in your scholarship, or engage with this project in any other way, please cite this post as you would with any publication. You may use this format for citations: Merve Tekgürler. *Experimenting with GPT-4 for Machine Translation from Ottoman Turkish into English*. First Published: 05/01/2024. URL:
