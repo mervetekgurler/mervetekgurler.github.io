@@ -98,7 +98,9 @@ navbar:
     img     :  # An small image, try 30x30px
   nav:
   - title   : Blog # Label
-    url     : /blog/ # url	
+    url     : /blog/ # url
+  - title   : Publications # Label
+    url     : /publication.md # url	
   # - title   : Cheatsheets
   #   url     : /cheatsheets
   # - title   : Extras
