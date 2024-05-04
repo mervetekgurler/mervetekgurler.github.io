@@ -4,11 +4,14 @@ subtitle: Create a Shortcut to Toggle the Visibility of Desktop Icons with One C
 tags: [random, code, shortcuts, mac]
 ---
 
-Ever felt overwhelmed by the clutter of icons on your Mac desktop, especially when you're about to share your screen? I've crafted a simple solution to hide and unhide your desktop icons with just a click, and it's entirely free! Dive into my step-by-step guide on how to set this up without any need for additional apps. 
+Feel overwhelmed by the clutter of icons on your Mac desktop, especially when you're about to share your screen? Do you just want a functionality that all Windows users have? Does it make you feel *exposed* when everyone in the meeting can see your filenames? I've crafted a simple solution to hide and unhide your desktop icons with just a click, and it's entirely free! Dive into my step-by-step guide on how to set this up without any need for additional apps. 
 
 ![mainbar](../materials/mainbar_shortcuts.png)
 
-### Get Started!
+<div align="center" style="margin-top: 20px;">
+  <a href="https://github.com/mervetekgurler/Hide-Desktop-Icons-on-Mac/blob/main/tutorial.md" style="font-size: 20px; font-weight: bold; color: #3478f7; text-decoration: none; padding: 10px 20px; border: 2px solid #3478f7; border-radius: 5px; display: inline-block;">
+    Access the Tutorial - Click Here!
+  </a>
+</div>
 
-[![Go to the Tutorial](https://img.shields.io/badge/Access_the_Tutorial-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/mervetekgurler/Hide-Desktop-Icons-on-Mac/blob/main/tutorial.md)
 
