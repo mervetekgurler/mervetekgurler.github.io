@@ -6,7 +6,7 @@ tags: [random, code, shortcuts, mac]
 
 Ever felt overwhelmed by the clutter of icons on your Mac desktop, especially when you're about to share your screen? I've crafted a simple solution to hide and unhide your desktop icons with just a click, and it's entirely free! Dive into my step-by-step guide on how to set this up without any need for additional apps. 
 
-![mainbar](../images/mainbar_shortcuts.png)
+![mainbar](../materials/mainbar_shortcuts.png)
 
 ### Get Started!
 
