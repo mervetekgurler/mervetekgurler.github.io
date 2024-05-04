@@ -9,7 +9,7 @@ Overwhelmed by the clutter of icons on your Mac desktop, especially when you're 
 ![mainbar](../materials/mainbar_shortcuts.png)
 
 <div align="center" style="margin-top: 20px;">
-  <a href="https://github.com/mervetekgurler/Hide-Desktop-Icons-on-Mac/blob/main/tutorial.md" style="font-size: 20px; font-weight: bold; color: #3478f7; text-decoration: none; padding: 10px 20px; border: 2px solid #3478f7; border-radius: 5px; display: inline-block;">
+  <a href="https://github.com/mervetekgurler/Hide-Desktop-Icons-on-Mac/blob/main/tutorial.md" style="font-size: 20px; font-weight: bold; color: #ffffff; background-color: #24292e; text-decoration: none; padding: 10px 20px; border: 2px solid #ffffff; border-radius: 5px; display: inline-block;">
     Access the Tutorial - Click Here!
   </a>
 </div>
