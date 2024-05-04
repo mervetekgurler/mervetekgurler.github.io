@@ -100,7 +100,7 @@ navbar:
   - title   : Blog # Label
     url     : /blog/ # url
   - title   : Publications # Label
-    url     : /publication.md # url	
+    url     : /publications.md # url	
   # - title   : Cheatsheets
   #   url     : /cheatsheets
   # - title   : Extras
