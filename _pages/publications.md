@@ -1,5 +1,6 @@
 ---
-layout: minimal
+layout: default
+header_type: post
 title: Publications
 subtitle: My Research and Publications
 header_type: base
