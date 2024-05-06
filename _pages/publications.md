@@ -7,7 +7,9 @@ include_on_search: true
 permalink: /publications/
 ---
 
-> I write on digital history, digital and computational humanities, Ottoman Empire and Early Modern Eurasia, more broadly.
+<blockquote class="blockquote text-center">
+  <p class="mb-0">I write on digital history, digital and computational humanities, Ottoman Empire and Early Modern Eurasia, more broadly.</p>
+</blockquote>
 
 <p>Tekgürler, Merve. “Cistern: A Database Of Geographical Knowledge In The Ottoman World,” in <em>Journal of Ottoman and Turkish Studies Association</em>, Special Issue on Digital Ottoman Studies 9, no. 2 (2022): 91-96. DOI: <a href="https://doi.org/10.2979/tur.2022.a902196.">10.2979/tur.2022.a902196</a></p>
 
