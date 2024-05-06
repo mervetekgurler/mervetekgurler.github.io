@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: minimal
 title: Publications
 subtitle: My Research and Publications
 header_type: base
