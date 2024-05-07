@@ -2,7 +2,7 @@
 layout: landingpage
 title: Merve Tekgürler
 header_type: hero
-header_img: materials/IMG_3739.HEIC
+header_img: ../materials/IMG_3739.jpeg
 subtitle: History Meets Computation
 ---
 
