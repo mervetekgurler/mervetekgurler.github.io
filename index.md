@@ -6,8 +6,8 @@ header_img: ../materials/IMG_3739.jpeg
 subtitle: History Meets Computation
 ---
 
-<div style="display: flex; align-items: flex-start; margin-top: 20px;">
-    <img src="../materials/headshot.jpg" alt="Merve Tekgürler" style="margin-right: 20px; width: 300px; height: auto;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-top: 20px;">
+    <img src="../materials/headshot.jpg" alt="Merve Tekgürler" style="flex: 0 0 300px; margin-right: 20px; width: 300px; height: auto;">
     <div style="flex: 1;">
         <p><strong>Merve Tekgürler</strong> is a PhD candidate in History (ABD) and an M.S. student in Symbolic Systems. In AY 2023-24, they hold the inaugural <a href="https://www.acls.org/fellow-grantees/merve-tekgurler/">Mellon/ACLS Dissertation Innovation Fellowship</a>. Merve has a BA degree in History and Social and Cultural Anthropology from Freie University Berlin and an MA in History from Stanford.</p>
         <p>Merve’s dissertation, tentatively titled “Crucible of Empire: Danubian Borderlands and the Making of Ottoman Administrative Mentalities” focuses on the Ottoman-Polish borderlands in the long 18th century (1760s-1820s), examining the changes and continuities north of the Danube River in relation to Russian and Austrian expansions. They study Ottoman news and information networks in this region and their impact on production and mobilisation of imperial knowledge.</p>
