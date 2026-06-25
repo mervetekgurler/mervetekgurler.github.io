@@ -18,7 +18,6 @@ author:
   location: "San Francisco, CA"
 
 minima:
-  skin: solarized
   date_format: "%B %-d, %Y"
   social_links:
     - { platform: twitter, user_url: "https://twitter.com/MerveTekgurler" }
