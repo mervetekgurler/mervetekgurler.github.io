@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "minima";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima";
 
 /* ─── Typography ─────────────────────────────────────────────── */
 
@@ -111,19 +113,11 @@ a:visited {
   font-size: 0.9rem;
 }
 
-.pagination-item {
-  color: #4a6741;
-}
+.pagination-item { color: #4a6741; }
+.pagination-item.disabled { color: #c0b4ab; }
+.pagination-count { color: #9a8d82; }
 
-.pagination-item.disabled {
-  color: #c0b4ab;
-}
-
-.pagination-count {
-  color: #9a8d82;
-}
-
-/* ─── HR / dividers ──────────────────────────────────────────── */
+/* ─── Dividers ───────────────────────────────────────────────── */
 
 hr {
   border: none;
@@ -142,10 +136,5 @@ hr {
 
 /* ─── Soft corners ───────────────────────────────────────────── */
 
-img {
-  border-radius: 6px;
-}
-
-pre, code {
-  border-radius: 5px;
-}
+img { border-radius: 6px; }
+pre, code { border-radius: 5px; }
