@@ -1,27 +1,16 @@
 theme: minima
 
 title: "Merve Tekgürler"
-subtitle: "History Meets Computation"
-description: >-
-  In an effort to bridge the divide between the so-called 'Two Cultures' of
-  Humanities and Sciences, Merve intertwines 18th-century history with
-  contemporary AI technologies. This website acts as both a personal and
-  academic hub, highlighting Merve's research, side projects, and non-academic writings.
+description: "History Meets Computation"
 
 url: "https://mervetekgurler.com"
 baseurl: ""
-timezone: "America/Los_Angeles"
-locale: "en-US"
+timezone: "America/New_York"
 
-author:
-  name: "Merve Tekgürler"
-  location: "Toronto, Ontario, Canada"
+author: "Merve Tekgürler"
 
 minima:
   date_format: "%B %-d, %Y"
-  social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/mervetekg%C3%BCrler/" }
-    - { platform: github, user_url: "https://github.com/mervetekgurler" }
 
 header_pages:
   - _pages/publications.md
@@ -54,7 +43,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-remote-theme
 
 defaults:
   - scope:
