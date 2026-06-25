@@ -19,9 +19,11 @@ The project ran as a free public tool and was used by scholars and students acro
 
 ---
 
-### Cistern: A Database of Geographical Knowledge in the Ottoman World
-*2020–present · Active*
+### Ottoman Text Corpus
+*Active*
 
-A collaborative database of geographical knowledge produced in and about the Ottoman world, co-created with Adrien Zakar. Cistern aggregates placename data from historical sources to support spatial humanities research.
+A digital collection of Ottoman court histories, political treatises, travel accounts, and diplomatic texts in transliteration from scholarly editions. The corpus spans 1166–1219 AH and is designed to support computational and close reading research on Ottoman history and culture.
 
-[geocistern.github.io](https://geocistern.github.io/)
+[mervetekgurler.com/ottoman_text_corpus_website](https://mervetekgurler.com/ottoman_text_corpus_website/)
+
+---
