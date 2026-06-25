@@ -1,7 +1,6 @@
 ---
 title: "Experimenting with Machine Translation of Ottoman Turkish into English"
 subtitle: "Semantics of Empire"
-header_type: hero
 header_img: "materials/translation_blogpost_background.png"
 categories: [picture]
 tags: [blog-post, machine-translation, ottoman-empire, nlp, history]
