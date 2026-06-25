@@ -1,20 +1,13 @@
 ---
-layout: default
-header_type: post
+layout: page
 title: Publications
-header_type: base
-include_on_search: true
 permalink: /publications/
 ---
 
-<blockquote class="blockquote text-center">
-  <p class="mb-0">I write on digital history, digital and computational humanities, Ottoman Empire and Early Modern Eurasia, more broadly.</p>
-</blockquote>
+I write on digital history, digital and computational humanities, Ottoman Empire and Early Modern Eurasia, more broadly.
 
-<p>Tekgürler, Merve. “Cistern: A Database Of Geographical Knowledge In The Ottoman World,” in <em>Journal of Ottoman and Turkish Studies Association</em>, Special Issue on Digital Ottoman Studies 9, no. 2 (2022): 91-96. DOI: <a href="https://doi.org/10.2979/tur.2022.a902196.">10.2979/tur.2022.a902196</a></p>
+---
 
-<p>Tekgürler, Merve. "Cruel and Menacing Letter of Defiance: A Study on the Perceptions of the Ottomans in Central Europe (1680s-1830s)." In <em>Themenportal Europäische Geschichte</em>, 2023. <a href="http://www.europa.clio-online.de/essay/id/fdae-98964">www.europa.clio-online.de/essay/id/fdae-98964</a>.</p>
+Tekgürler, Merve. "Cistern: A Database Of Geographical Knowledge In The Ottoman World," in *Journal of Ottoman and Turkish Studies Association*, Special Issue on Digital Ottoman Studies 9, no. 2 (2022): 91–96. DOI: [10.2979/tur.2022.a902196](https://doi.org/10.2979/tur.2022.a902196)
 
-
-
-
+Tekgürler, Merve. "Cruel and Menacing Letter of Defiance: A Study on the Perceptions of the Ottomans in Central Europe (1680s-1830s)." In *Themenportal Europäische Geschichte*, 2023. [www.europa.clio-online.de/essay/id/fdae-98964](http://www.europa.clio-online.de/essay/id/fdae-98964)
