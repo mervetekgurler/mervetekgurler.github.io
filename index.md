@@ -4,11 +4,29 @@ title: Merve Tekgürler
 permalink: /
 ---
 
-<section class="hero-map">
+<section class="hero-intro">
+  <div class="hero-intro-header">
+    <h1 class="hero-name">Merve Tekgürler</h1>
+    <div class="hero-descriptor">
+      <p>PhD Candidate in History</p>
+      <p>Stanford University</p>
+      <p>Mellon/ACLS Dissertation Fellow</p>
+    </div>
+  </div>
+  <div class="hero-intro-space"></div>
+  <div class="hero-map-peek">
+    <img
+      src="{{ '/materials/mahmud_raif_amerika.jpg' | relative_url }}"
+      alt="Ottoman map of North America, top edge"
+      class="hero-map-peek-img">
+  </div>
+</section>
+
+<section class="hero-map-full">
   <img
     src="{{ '/materials/mahmud_raif_amerika.jpg' | relative_url }}"
-    alt="Mahmud Raif Efendi's 1803 Ottoman map of North America, from the Cedid Atlas Tercümesi — territories in pink and yellow, place names in Ottoman Turkish"
-    class="hero-map-img">
+    alt="Mahmud Raif Efendi's 1803 Ottoman map of North America — from the Cedid Atlas Tercümesi. Territories in pink and yellow, place names in Ottoman Turkish."
+    class="hero-map-full-img">
 </section>
 <p class="hero-map-caption">Mahmud Raif Efendi, <em>Cedid Atlas Tercümesi</em>, Istanbul, 1803</p>
 
@@ -17,9 +35,6 @@ permalink: /
     <img src="{{ '/materials/headshot.jpg' | relative_url }}" alt="Merve Tekgürler">
   </div>
   <div class="bio-text">
-    <h1 class="bio-name">Merve Tekgürler</h1>
-    <p class="bio-tagline">Historian of the Ottoman Empire. Building computational tools for historical languages.</p>
-
     <p>Merve Tekgürler is a PhD candidate in History (ABD) and an M.S. student in Symbolic Systems. In AY 2023-24, they hold the inaugural <a href="https://www.acls.org/fellow-grantees/merve-tekgurler/">Mellon/ACLS Dissertation Innovation Fellowship</a>. Merve has a BA in History and Social and Cultural Anthropology from Freie University Berlin and an MA in History from Stanford.</p>
 
     <p>Merve's dissertation, tentatively titled "Crucible of Empire: Danubian Borderlands and the Making of Ottoman Administrative Mentalities," focuses on the Ottoman-Polish borderlands in the long 18th century (1760s–1820s), examining change and continuity north of the Danube River in relation to Russian and Austrian expansions. They study Ottoman news and information networks in this region and their impact on the production and mobilisation of imperial knowledge.</p>

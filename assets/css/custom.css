@@ -179,20 +179,73 @@ pre, code { border-radius: 5px; }
 
 html { overflow-x: hidden; }
 
-/* ─── Hero Map ───────────────────────────────────────────────── */
+/* ─── Hero intro (above fold) ────────────────────────────────── */
 
-.hero-map {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-top: -0.5rem;
+.hero-intro {
+  /* Accounts for: Minima nav (~60px) + page-content padding (~30px) + peek buffer (~90px) */
+  height: calc(100vh - 10rem);
+  height: calc(100svh - 10rem);
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.hero-map-img {
+.hero-intro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 0.25rem;
+}
+
+.hero-name {
+  margin: 0;
+  /* Inherits Spectral 300, display size from h1 rule */
+}
+
+.hero-descriptor {
+  text-align: right;
+  font-size: var(--text-label);
+  color: #5a4f46;
+  line-height: 1.7;
+  padding-top: 0.5em;
+}
+
+.hero-descriptor p {
+  margin: 0;
+}
+
+.hero-intro-space {
+  flex: 1;
+}
+
+.hero-map-peek {
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.hero-map-peek-img {
   display: block;
   width: 100%;
-  height: clamp(220px, 38vw, 480px);
+  height: 80px;
   object-fit: cover;
-  object-position: center 38%;
+  object-position: top center;
+  border-radius: 0;
+}
+
+/* ─── Hero map full ───────────────────────────────────────────── */
+
+.hero-map-full {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.hero-map-full-img {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 0;
 }
 
@@ -209,14 +262,14 @@ html { overflow-x: hidden; }
 
 .bio {
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
   align-items: flex-start;
-  padding-top: 2.75rem;
-  padding-bottom: 2rem;
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
 }
 
 .bio-photo {
-  flex: 0 0 220px;
+  flex: 0 0 150px;
 }
 
 .bio-photo img {
@@ -231,35 +284,29 @@ html { overflow-x: hidden; }
   min-width: 0;
 }
 
-.bio-name {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.1;
-}
-
-.bio-tagline {
-  font-size: 1rem;
-  color: #5a4f46;
-  font-weight: 400;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
 .bio-text p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 @media (max-width: 600px) {
+  .hero-intro-header {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero-descriptor {
+    text-align: left;
+  }
+
   .bio {
     flex-direction: column;
     gap: 1.5rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   .bio-photo {
     flex: none;
-    width: 180px;
+    width: 130px;
   }
 }
