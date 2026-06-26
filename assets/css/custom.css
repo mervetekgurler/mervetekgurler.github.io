@@ -174,3 +174,92 @@ hr {
 
 img { border-radius: 6px; }
 pre, code { border-radius: 5px; }
+
+/* ─── Full-bleed containment ─────────────────────────────────── */
+
+html { overflow-x: hidden; }
+
+/* ─── Hero Map ───────────────────────────────────────────────── */
+
+.hero-map {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: -0.5rem;
+}
+
+.hero-map-img {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 38vw, 480px);
+  object-fit: cover;
+  object-position: center 38%;
+  border-radius: 0;
+}
+
+.hero-map-caption {
+  font-size: 0.78rem;
+  color: #9a8d82;
+  text-align: right;
+  padding-top: 0.5rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* ─── Bio ────────────────────────────────────────────────────── */
+
+.bio {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  padding-top: 2.75rem;
+  padding-bottom: 2rem;
+}
+
+.bio-photo {
+  flex: 0 0 220px;
+}
+
+.bio-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.bio-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.bio-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.bio-tagline {
+  font-size: 1rem;
+  color: #5a4f46;
+  font-weight: 400;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.bio-text p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .bio {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .bio-photo {
+    flex: none;
+    width: 180px;
+  }
+}
